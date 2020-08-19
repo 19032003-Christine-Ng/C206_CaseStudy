@@ -46,7 +46,10 @@ public class Order {
 		this.items = items;
 	}
 	public String toString() {
-		String output = String.format("Username: %-10s", username);
+		String output = String.format("Username: %-10s\n", username);
+		output += String.format("Status: %-10s\n", status);
+		output += String.format("Takeaway: %-10s\n", takeaway);
+		output += String.format("Items: %-10s\n", items);
 		
 		return output;
 	}
