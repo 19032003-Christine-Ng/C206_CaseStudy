@@ -1,4 +1,4 @@
-
+// YiYang
 public class Promotion {
 
 }
