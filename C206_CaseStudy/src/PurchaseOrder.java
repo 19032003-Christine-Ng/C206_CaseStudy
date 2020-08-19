@@ -49,6 +49,7 @@ public class PurchaseOrder {
 	}
 	public String toString() {
 		String output = String.format("%-10s %-10d %.2f %-10s", itemName, itemQuantity, itemUnitPrice, deliveryDate);
+		
 		return output;
 	}
 	

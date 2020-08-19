@@ -32,9 +32,6 @@ public class MenuItem {
 		String output = String.format("%-20s %-20s %-.2f", category,name,price);
 		
 		return output;
-		
-		
-		
 	}
 
 }
