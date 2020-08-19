@@ -6,6 +6,7 @@ public class Order {
 	private boolean takeaway;
 	private ArrayList<MenuItem> items;
 	
+	//constructor
 	public Order(String username, String status, boolean takeaway, ArrayList<MenuItem> items) {
 		this.username = username;
 		this.status = status;
